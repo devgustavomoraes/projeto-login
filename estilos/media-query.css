@@ -9,12 +9,13 @@
 */
 
 @media screen and (min-width: 641px) and (max-width: 1024px) {
-    body {
+    body { /* CONFIGURAÇÃO PARA TABLET */
         background-image: linear-gradient(to top, #49A09D, #5F2C82);
     }
     
     section#login {
         width: 80vw;
+        height: 290px;
     }
 
     section#login > div#imagem {
@@ -29,13 +30,14 @@
     }
 }
 
-@media screen and (min-width: 1025px) {
-     body {
+@media screen and (min-width: 1025px) { /* CONFIGURAÇÕES PARA DESKTOP */
+     body { 
         background-image: linear-gradient(to top, #49A09D, #5F2C82);
     }
     
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -54,6 +56,7 @@
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 10px 0px;
     }
 }
